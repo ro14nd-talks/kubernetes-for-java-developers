@@ -1,0 +1,6 @@
+[submodule "visualizer"]
+	path = visualizer
+	url = git@github.com:rhuss/gcp-live-k8s-visualizer.git
+[submodule "demo"]
+	path = demo
+	url = git@github.com:rhuss/ping-pong-peng.git
