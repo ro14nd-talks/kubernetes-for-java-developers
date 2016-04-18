@@ -1,0 +1,17 @@
+<h1 class="menu-title" style="display: none">Build & Run</h1>
+<h2>Build</h2>
+<pre><code class="dockerfile">FROM jboss/base-jdk:8
+
+ENV DB_HOST "dev-database.dev.intranet"
+ENV DB_USER "db-develop"
+ENV DB_PASSWORD "s3cr3t"
+....
+</code></pre>
+
+<h2 style="margin-top: 50px">RUN</h2>
+<pre><code class="bash">docker run \
+  -e DB_HOST "prod-db.mycompany.com" \
+  -e DB_USER "dbuser"
+  -e DB_PASSWORD "3QkgbLXWPZ2sJcQ"
+  ....
+  mycompany/cool-app</code></pre>

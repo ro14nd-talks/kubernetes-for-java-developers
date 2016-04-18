@@ -1,0 +1,9 @@
+<h1>Self Contained</h1>
+
+<ul>
+  <li>JEE Server and Application in <strong>one</strong> Image</li>
+  <li>Server base image</li>
+</ul>
+<pre><code class="dockerfile">FROM fabric8/tomcat-8.0
+COPY chat-app.war /opt/tomcat/webapps/chat-app.war
+</code></pre>

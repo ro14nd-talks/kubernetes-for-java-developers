@@ -1,0 +1,30 @@
+<h1>Ansible</h1>
+
+<pre><code class="yaml" style="font-size: 70%">- name: initialize provisioning
+  hosts: docker
+  - name: start up target container
+    docker:
+      image: java:8.0
+      name: fis-karaf
+      # ....
+      command: sleep infinity
+      state: started
+  # dynamically update inventory
+  - name: register new container hostname
+    add_host: name=lab
+- name: provision container
+  connection: docker
+  hosts: lab
+  tasks:
+      # ...
+- name: finalize build
+  hosts: docker
+  tasks:
+    - name: stop container
+      docker:
+        name: fis-karaf
+        state: stopped
+</code></pre>
+<ul>
+
+</ul>

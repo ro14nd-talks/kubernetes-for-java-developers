@@ -1,0 +1,25 @@
+<h1 class="menu-title" style="display: none">Kubernetes</h1>
+<h1>Kubernetes</h1>
+
+<pre><code class="yaml" style="font-size: 80%">---
+apiVersion: v1
+kind: ReplicationController
+spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+        - env:
+            - name: GALERA_CLUSTER
+              value: "true"
+            - name: WSREP_CLUSTER_ADDRESS
+              value: "gcomm:"
+            - name: WSREP_SST_USER
+              value: "sst"
+            - name: WSREP_SST_PASSWORD
+              value: "sst"
+            - name: MYSQL_USER
+              value: "mysql"
+            - name: MYSQL_PASSWORD
+              value: "mysql"
+</code></pre>

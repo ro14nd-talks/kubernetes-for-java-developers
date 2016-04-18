@@ -1,0 +1,15 @@
+<h1 class="menu-title" style="display: none">Dockerfile ARGS</h1>
+<h1>Dockerfile Args</h1>
+
+<ul>
+  <li>Dockerfile variables</li>
+  <li>Since Docker 1.9</li>
+  <li>Can not be used in <code>FROM</code></li>
+  <li>Filled in during runtime</li>
+</ul>
+<pre><code class="dockerfile">FROM busybox
+ARG uid
+USER ${uid:-jboss}
+# ...
+</code></pre>
+<pre><code class="dockerfile" style="margin-top: 50px">docker run --build-arg uid=daemon ....</code></pre>

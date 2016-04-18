@@ -1,0 +1,19 @@
+<h1 class="menu-title" style="display: none">Fabric8 CDI</h1>
+<h1>Fabric8 CDI</h1>
+
+<pre><code class="java" style="font-size: 80%; margin-top: 50px;">@Factory
+@ServiceName
+public DataSource create(@ServiceName
+                         @Protocol("jdbc:mysql")
+                         @Path("db")
+                         String url) {
+    MysqlDataSource mysqlDS = new MysqlDataSource();
+    mysqlDS.setUrl(url);
+    mysqlDS.setUser(System.getProperty(USERNAME, "root"));
+    mysqlDS.setPassword(System.getProperty(PASSWORD, "pass"));
+    return mysqlDS;
+}</code></pre>
+
+<pre><code class="java" style="font-size: 80%; margin-top: 30px">@ServiceName("dev-mysql")
+DataSource mySqlD;
+</code></pre>

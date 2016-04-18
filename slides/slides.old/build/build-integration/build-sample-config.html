@@ -1,0 +1,19 @@
+<h1 class="menu-title" style="display: none">d-m-p: Configuration</h1>
+<h1>Configuration</h1>
+
+<pre><code class="xml" data-trim>
+&lt;image>
+  &lt;name>jolokia/jolokia-itest&lt;/name>
+  &lt;build>
+    &lt;from>consol/tomcat-7.0&lt;/from>
+    &lt;assemblyDescriptor>
+      assembly.xml
+    &lt;/assemblyDescriptor>
+  &lt;/build>
+  &lt;run>
+    &lt;ports>
+      &lt;port>jolokia.port:8080&lt;/port>
+    &lt;/ports>
+  &lt;/run>
+&lt;/image>
+</code></pre>

@@ -1,0 +1,14 @@
+<h1 class="menu-title" style="display: none">fish-pepper: Example (2)</h1>
+<h1>fish-pepper</h1>
+<pre><code class="dockerfile" style="font-size: 70%">FROM {{= fp.config.version.java + fp.config.type.extension }}
+
+MAINTAINER {{= fp.maintainer }}
+
+ENV JOLOKIA_VERSION {{= fp.jolokiaVersion }}
+
+RUN chmod 755 /bin/jolokia_opts \
+  && mkdir /opt/jolokia \
+  && wget {{= fp.jolokiaUrl}} -O /opt/jolokia/jolokia.jar
+
+CMD java -jar /opt/jolokia/jolokia.jar --version
+</code></pre>

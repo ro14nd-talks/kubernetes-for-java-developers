@@ -1,0 +1,22 @@
+<h1 class="menu-title" style="display: none">DNS via JNDI</h1>
+<h1>JNDI DNS</h1>
+
+<pre><code class="java" style="font-size: 80%">Hashtable env = new Hashtable();
+env.put("java.naming.factory.initial",
+        "com.sun.jndi.dns.DnsContextFactory");
+env.put("java.naming.provider.url", "dns:");
+
+DirContext ctx = new InitialDirContext(this.env);
+Attributes attrs =
+  ctx.getAttributes("redis.myproject.svc.cluster.local",
+                    new String[] { "SRV" });
+NamingEnumeration e = attrs.getAll();
+
+while (e.hasMore()) {
+  Attribute attr = (Attribute) e.next();
+  System.out.println(attr.get());
+}
+e.close();
+</code></pre>
+
+<pre><code style="margin-top: 20px; font-size: 80%">10 33 6379 _redis._tcp.redis.myproject.svc.cluster.local.</code></pre>

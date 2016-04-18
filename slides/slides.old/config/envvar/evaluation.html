@@ -1,0 +1,31 @@
+<h1 class="menu-title" style="display: none">Using Variables</h1>
+<h1>Evaluation</h1>
+
+<ul>
+  <li class="fragment"><code>System.getenv()</code></li>
+  <li class="fragment">Environment "profiles"
+    <ul>
+      <li>Predefined profiles</li>
+      <li>EnvVar selects profile</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="fragment">
+<pre><code class="yaml" style="font-size: 90%; padding: 5px 20px;
+                               float: left; margin-left: 0%; margin-right: 5%">spring:
+    profiles: dev
+server:
+    port: 9001
+---
+spring:
+    profiles: prod
+server:
+    port: 8080
+</code></pre>
+
+<pre><code class="bash" style="font-size: 90%">docker run \
+  -e SPRING_PROFILES_ACTIVE=dev \
+  my-springboot-app
+</code></pre>
+</div>

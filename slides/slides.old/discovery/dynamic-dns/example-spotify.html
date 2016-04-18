@@ -1,0 +1,20 @@
+<h1 class="menu-title" style="display: none">spotify/dns-java</h1>
+<h1>spotify/dns-java</h1>
+<pre><code class="java" style="font-size: 90%">import com.spotify.dns.*;
+
+DnsSrvResolver resolver =
+    DnsSrvResolvers.newBuilder()
+                   .cachingLookups(true)
+                   .retainingDataOnFailures(true)
+                   .dnsLookupTimeoutMillis(1000)
+                   .build();
+
+List&lt;LookupResult&gt; nodes =
+    resolver.resolve(
+        "redis.myproject.svc.cluster.local");
+
+for (LookupResult node : nodes) {
+    System.out.println(
+        node.host() + ":" + node.port());
+}
+</code></pre>

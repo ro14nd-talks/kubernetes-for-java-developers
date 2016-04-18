@@ -1,0 +1,16 @@
+<h1 class="menu-title" style="display: none">Wormhole</h1>
+<h1>Wormhole</h1>
+
+<div class="problem">
+  How can a container access its managing Docker daemon ?
+</div>
+
+<pre><code class="bash">docker run \
+  -v /var/run/docker.sock:/var/run/docker.sock  \
+  ...</code></pre>
+
+<ul style="margin-top: 50px">
+  <li>Alternative: "Docker-in-Docker"</li>
+</ul>
+
+<div class="foot-url">https://ro14nd.de/Docker-Wormhole-Pattern</div>

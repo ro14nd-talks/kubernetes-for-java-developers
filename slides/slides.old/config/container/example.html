@@ -1,0 +1,15 @@
+<h1 class="menu-title" style="display: none">Example</h1>
+<h3>Config Dockerfile</h3>
+<pre><code class="dockerfile">FROM busybox
+
+ADD "dev_conf" "/usr/local/tomcat/conf"
+VOLUME "/usr/local/tomcat/conf"
+</code></pre>
+
+<h3 style="margin-top: 5%">Create container</h3>
+<pre><code class="bash">docker run --name "dev-config" \
+       $(docker build -q . | tail -1)
+</code></pre>
+
+<h3 style="margin-top: 5%">Start Image</h3>
+<pre><code class="bash">docker run --volumes-from="dev-config" -P tomcat</code></pre>
