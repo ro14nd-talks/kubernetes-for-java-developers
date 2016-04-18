@@ -13,7 +13,7 @@ For the demos to work, the following software is installed:
 * Kuberentes 1.2.2
 * Emacs 25.0.50.1
 
-The image is best started with the include `run.sh` or for some more fanciness, there is also the [shell script](https://raw.githubusercontent.com/rhuss/jax-kubernetes-2016/jax-2016.sh) which can be used with `$(curl -sL http://bit.ly/kubernetes-jax2016 | sh)`
+The image is best started with the include `run.sh` or for some more fanciness, there is also the [shell script](https://raw.githubusercontent.com/rhuss/jax-kubernetes-2016/jax-2016.sh) which can be used with `$(curl -sL http://bit.ly/kubernetes-jaxcon2016 | sh)`
 
 With this startup script the presentation is then available at `http://docker_host:9000` where `docker_host` is the address of your Docker daemon's host (e.g. `localhost` or the IP of your boot2docker VM).
 
