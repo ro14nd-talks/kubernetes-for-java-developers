@@ -29,6 +29,7 @@
     "demo.html",
     "kubernetes/labels.html",
     "kubernetes/replication-controller.html",
+    "kubernetes/replication-controller-diagram.html",
     "demo.html",
     "kubernetes/service.html",
     "demo.html",
