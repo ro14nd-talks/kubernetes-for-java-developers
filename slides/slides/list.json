@@ -3,9 +3,10 @@
   [
     "msa/title.html",
     "msa/monolith.html",
-    "msa/ms.html",
-    "msa/ms-container.html",
-    "msa/ms-container-orchestration.html"
+    "msa/breakdown.html",
+    "msa/split.html",
+    "msa/container.html",
+    "msa/orchestration.html"
   ],
   [
     "pong/title.html",
