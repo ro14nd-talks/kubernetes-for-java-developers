@@ -16,7 +16,6 @@
   [
     "docker/title.html",
     "docker/vm-vs-container.html",
-    "docker/zoo.html",
     "docker/dockerfile.html",
     "docker/d-m-p.html",
     "demo.html"
@@ -26,8 +25,8 @@
     "kubernetes/overview.html",
     "kubernetes/architecture.html",
     "kubernetes/pod.html",
-    "demo.html",
     "kubernetes/labels.html",
+    "demo.html",
     "kubernetes/replication-controller.html",
     "kubernetes/replication-controller-diagram.html",
     "demo.html",

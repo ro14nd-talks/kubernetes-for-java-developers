@@ -1,8 +1,8 @@
 #!/bin/sh
 docker run -d \
       -v /var/run/docker.sock:/var/run/docker.sock \
-      -p 9000:9000 -p 57575:57575 -p 35729:35729 \
-      rhuss/kubernetes-2016-jax:latest 1>&2
+      -p 9000:9000 -p 57575:57575 -p 35729:35729 -p 8001:8001 \
+      rhuss/talk-kubernetes-2016-jax:latest 1>&2
 
 if [ $? -ne "0" ]; then
    echo "Error starting container: $?" 1>&2
