@@ -86,7 +86,7 @@ of questions or suggestions).
   * [Micro SD Card (32 GB)](http://www.amazon.de/SanDisk-Android-microSDHC-Speicherkarte-SD-Adapter/dp/B013UDL5RU)
   * [WLAN Router](http://www.amazon.de/TP-Link-TL-WR802N-Router-WLAN-Geschwindigkeit-300Mbit/dp/B00XPUIDFQ)
   * [USB wires](http://www.amazon.de/Anker-PowerLine-Kevlarfaser-Lebensdauer-Smartphones-Schwarz/dp/B016BEVNK4?)
-  * [Power S](http://www.amazon.de/Anker-PowerPort-Family-Sized-Ladeadapter-Technologie/dp/B00PTLSH9G)
+  * [Power Supply](http://www.amazon.de/Anker-PowerPort-Family-Sized-Ladeadapter-Technologie/dp/B00PTLSH9G)
   * [Case](http://www.amazon.de/H%C3%B6henverstellbares-stapelbares-Abstandsbolzen-Vullers-Tech/dp/B00NB1WPEE)
   * [Intermediate Case Plate](http://www.amazon.de/Intermediate-Stacking-Raspberry-Vullers-Tech/dp/B00NB1WQZW)
 * **Kubernetes**
