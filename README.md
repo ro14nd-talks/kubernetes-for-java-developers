@@ -12,7 +12,7 @@ prepopulated so the demos will work offline, too.
 
 The image is best started with the include `run.sh` or for some more
 fanciness, there is also a
-[shell script](https://raw.githubusercontent.com/rhuss/jax-kubernetes-2016/jax-2016.sh)
+[shell script](https://github.com/rhuss/jax-kubernetes-2016/blob/master/jax-2016.sh)
 which can be used with `$(curl -sL http://bit.ly/kubernetes-jaxcon2016
 | sh)`
 
