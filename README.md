@@ -73,9 +73,9 @@ of questions or suggestions).
 ### Links
 
 * **Demo**
-  * [Ping Pong Peng](https://github.com/fabric8io/docker-maven-plugin)
+  * [Ping Pong Peng](https://github.com/rhuss/ping-pong-peng)
   * [Kubernetes Visualizer](https://github.com/saturnism/gcp-live-k8s-visualizer)
-  * [Kubernetes Visualizer (Original](https://github.com/brendandburns/gcp-live-k8s-visualizer)
+  * [Kubernetes Visualizer (Original](https://github.com/brendandburns/gcp-live-k8s-visualizer))
 * **Docker**
   * [fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
   * [docker-maven-plugin Shootout](https://github.com/fabric8io/shootout-docker-maven)
