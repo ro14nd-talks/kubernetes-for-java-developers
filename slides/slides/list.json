@@ -24,6 +24,8 @@
     "kubernetes/title.html",
     "kubernetes/overview.html",
     "kubernetes/architecture.html",
+    "kubernetes/cluster-hardware.html",
+    "kubernetes/cluster-ansible.html",
     "kubernetes/pod.html",
     "kubernetes/labels.html",
     "demo.html",
