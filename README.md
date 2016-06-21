@@ -1,7 +1,7 @@
-# Kubernetes for Java Developers - Jax2016
+# Kubernetes for Java Developers
 
 This contains the slides and more for my talk "Kubernetes for Java
-Developer" at Jax2016. This deck comes as a Docker image which is
+Developer". This deck comes as a Docker image which is
 based on [rhuss/docker-reveal](https://github.com/rhuss/docker-reveal)
 image.
 
@@ -24,7 +24,7 @@ VM).
 In order to recreate the image, use [build.sh](build.sh). The image is
 configured to use a Kubernetes cluster at `http://192.168.23.200:8080` but
 this can be overridden when building the image with e.g. `build.sh
-http://1.2.3.4:8080`. 
+http://1.2.3.4:8080`.
 
 After startup, a
 [Kubernetes Visualizer](https://github.com/brendandburns/gcp-live-k8s-visualizer)
