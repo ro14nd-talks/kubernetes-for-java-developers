@@ -43,9 +43,11 @@ The demo can be found in `/demo`. There are 5 Git branches available:
 
 * 1-java
 * 2-docker
-* 3-peng
-* 4-kubernetes
-* 5-rolling-update
+* 3-kubernetes
+* 4-ping-update
+* 5-pong-update
+
+The demo's full source is also available from [https://github.com/rhuss/ping-pong](https://github.com/rhuss/ping-pong).
 
 Some useful commands to use (some available only in certain branches)
 
@@ -54,11 +56,11 @@ Some useful commands to use (some available only in certain branches)
 * In `ping`, `mvn spring-boot:run` to start
 * In `ping` or `pong`, `mvn package docker:build` builds the Docker image
 * `mvn -N docker:start -Ddocker.follow` : Run the demo in a local Docker daemon
-* `peng` contains the Spring Boot implementation of `pong`, useful for
+* In branch `5-pong-update`, `pong` contains the Spring Boot implementation of the Jax RS service, useful for
   comparing both technologies
 
 Have fun (and feel free to open
-[issues](https://github.com/rhuss/jax-kubernetes-2016/issues) in case
+[issues](https://github.com/ro14nd-talks/kubernetes-for-java-developers/issues) in case
 of questions or suggestions).
 
 
@@ -73,7 +75,7 @@ of questions or suggestions).
 ### Links
 
 * **Demo**
-  * [Ping Pong Peng](https://github.com/rhuss/ping-pong-peng)
+  * [Ping Pong](https://github.com/rhuss/ping-pong)
   * [Kubernetes Visualizer](https://github.com/saturnism/gcp-live-k8s-visualizer)
   * [Kubernetes Visualizer (Original](https://github.com/brendandburns/gcp-live-k8s-visualizer))
 * **Docker**
