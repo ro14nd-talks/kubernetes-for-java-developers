@@ -11,7 +11,7 @@ the browser (look for slides named "Demo"). The demo can be found in
 prepopulated so the demos will work offline, too.
 
 The image is best started with the include `run.sh` or for some more
-fanciness, there is also a [shell script](https://raw.githubusercontent.com/ro14nd-talks/kubernetes-for-java-developers/master/run-container.sh) which can be used with `$(curl -sL bit.ly/k8s-for-java-devs | sh)`
+fanciness, there is also a [shell script](https://raw.githubusercontent.com/ro14nd-talks/kubernetes-for-java-developers/master/run-container.sh) which can be used with e.g. `firefox $(curl -sL bit.ly/k8s-for-java-devs | sh)`
 
 With this startup script the presentation is then available at
 `http://docker_host:9000` where `docker_host` is the address of your
