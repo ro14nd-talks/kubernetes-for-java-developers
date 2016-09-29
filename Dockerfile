@@ -6,9 +6,11 @@ MAINTAINER rhuss@redhat.com
 ARG KUBERNETES_MASTER=http://192.168.23.200:8080
 
 # Add kubectl & openjdk8 & fix interrupt handling
-RUN curl https://storage.googleapis.com/kubernetes-release/release/v1.2.2/bin/linux/amd64/kubectl \
+RUN curl https://storage.googleapis.com/kubernetes-release/release/v1.3.2/bin/linux/amd64/kubectl \
     -o /usr/bin/kubectl \
- && chmod 755 /usr/bin/kubectl \
+ && curl https://storage.googleapis.com/kubernetes-release/release/v1.2.2/bin/linux/amd64/kubectl \
+    -o /usr/bin/kubectl12 \
+ && chmod 755 /usr/bin/kubectl /usr/bin/kubectl12 \
  && kubectl config set-cluster cluster-pi --insecure-skip-tls-verify=true --server=${KUBERNETES_MASTER} \
  && kubectl config set-context default/cluster-pi --namespace=default --cluster=cluster-pi \
  && kubectl config use-context default/cluster-pi
