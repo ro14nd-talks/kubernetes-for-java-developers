@@ -47,7 +47,13 @@
   [
     "fabric8/title.html",
     "fabric8/overview.html",
-    "fabric8/fabric8-maven-plugin.html"
+    "fabric8/fmp-overview.html",
+    "fabric8/fmp-config.html",
+    "fabric8/fmp-zero-config.html",
+    "fabric8/fmp-fragments.html",
+    "demo.html",
+    "fabric8/fmp-k8s-openshift.html",
+    "fabric8/fmp-misc.html"    
   ],
   "wrap-up.html",
   "questions-red.html"
