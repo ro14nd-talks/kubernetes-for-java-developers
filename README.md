@@ -94,6 +94,7 @@ of questions or suggestions).
   * [Fabric8](http://fabric8.io)
 * **Bonus**
   * [rhuss/docker-reveal](https://hub.docker.com/r/rhuss/docker-reveal)
+  * [Slide Deck as PDF](slides/kubernetes-for-java-developers.pdf)
   * [Slide Deck as Docker Container](https://github.com/rhuss/jax-kubernetes-2016)
 * **ro14nd**
   * [Blog](https://ro14nd.de)
