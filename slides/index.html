@@ -471,16 +471,21 @@
     var section = event.currentSlide || event;
     var demo = section.getElementsByClassName('demo')[0];
     if (demo) {
+      if (/PhantomJS/.test(window.navigator.userAgent)) {
+         demo.style.display="none";
+         return;
+      }
+
       //var slide = document.querySelector("div.reveal div.slides");
       //slide.style.width='1280px';
       demo.src = getButterflyUrl();
 
       // We try some default, but please overwrite them via localStorage if required
-      demo.style.height = localStorage.getItem("height") || "586px";
-      demo.style.width = localStorage.getItem("width") || "110%";
-      demo.style.marginLeft = localStorage.getItem("marginLeft") || "-100px";
-      if (localStorage.get("paddingTop")) {
-        demo.style.paddingTop = localStorage.get("paddingTop");
+      demo.style.height = (localStorage && localStorage.getItem("height")) || "586px";
+      demo.style.width = (localStorage && localStorage.getItem("width")) || "110%";
+      demo.style.marginLeft = (localStorage && localStorage.getItem("marginLeft")) || "-100px";
+      if (localStorage && localStorage.getItem("paddingTop")) {
+        demo.style.paddingTop = localStorage.getItem("paddingTop");
       }
     }
   }
