@@ -108,5 +108,5 @@ of questions or suggestions).
 * [JBCNConf](http://www.jbcnconf.com/2016/), 16.06 - 18.06.2016, Barcelona
 * [JUG Nürnberg](http://www.meetup.com/de-DE/JUG-Nurnberg/), 22.06.2016, Nuremberg
 * [Docker Meetup Bamberg](http://www.meetup.com/de-DE/Docker-Bamberg/), 14.07.2016, Bamberg
-* [jugh!](http://www.jugh.de/), 29.09.2016, Kassel, [Video]()
+* [jugh!](http://www.jugh.de/), 29.09.2016, Kassel, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)
 * [JavaSi'16](http://www.sioug.si/index.php/konferenca-javasi-16/java-2/175-kubectl-in-60-min), 17.10.2016, Portoroz
