@@ -18,3 +18,5 @@ alias yaml="yml"
 kcgy() {
   yml kubectl get $*
 }
+
+source <(kubectl completion bash)
