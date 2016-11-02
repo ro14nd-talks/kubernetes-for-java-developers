@@ -23,9 +23,8 @@ configured to use a Kubernetes cluster at `http://192.168.23.200:8080` but
 this can be overridden when building the image with e.g. `build.sh
 http://1.2.3.4:8080`.
 
-After startup, a
-[Kubernetes Visualizer](https://github.com/brendandburns/gcp-live-k8s-visualizer)
-is available at `http://docker_host:8001/k8s/` and can be used to
+After startup, a nice
+[Kubernetes Visualizer](https://github.com/brendandburns/gcp-live-k8s-visualizer), made by the fine Google folks & friends, is available at `http://docker_host:8001/k8s/` and can be used to
 visualize the demo:
 
 ![Demo](https://raw.githubusercontent.com/rhuss/jax-kubernetes-2016/master/demo.png

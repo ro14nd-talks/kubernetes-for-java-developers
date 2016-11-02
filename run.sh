@@ -11,3 +11,4 @@ docker run -it --rm \
       rhuss/kubernetes-for-java-developers:latest $*
 
 #      -v $(pwd)/m2:/root/.m2 \
+
