@@ -6,7 +6,8 @@
     "msa/breakdown.html",
     "msa/split.html",
     "msa/container.html",
-    "msa/orchestration.html"
+    "msa/orchestration.html",
+    "msa/orchestration-2.html"
   ],
   [
     "pong/title.html",
@@ -24,13 +25,15 @@
     "kubernetes/title.html",
     "kubernetes/overview.html",
     "kubernetes/architecture.html",
+    "kubernetes/minikube.html",
+    "kubernetes/gke.html",
     "kubernetes/cluster-hardware.html",
-    "kubernetes/cluster-ansible.html",
     "kubernetes/pod.html",
     "kubernetes/labels.html",
     "demo.html",
     "kubernetes/replication-controller.html",
     "kubernetes/replication-controller-diagram.html",
+    "kubernetes/deployment.html",
     "demo.html",
     "kubernetes/service.html",
     "demo.html",
@@ -38,11 +41,6 @@
     "demo.html",
     "kubernetes/volumes.html",
     "kubernetes/misc.html"
-  ],
-  [
-    "openshift/title.html",
-    "openshift/overview.html",
-    "openshift/extra.html"
   ],
   [
     "fabric8/title.html",
@@ -53,7 +51,10 @@
     "fabric8/fmp-fragments.html",
     "demo.html",
     "fabric8/fmp-k8s-openshift.html",
-    "fabric8/fmp-misc.html"    
+    "fabric8/fmp-misc.html"
+  ],
+  [
+    "openshift/title.html"
   ],
   "wrap-up.html",
   "questions-red.html"
