@@ -1,5 +1,6 @@
 [
   "title-red.html",
+  "agenda.html",
   [
     "msa/title.html",
     "msa/monolith.html",
@@ -25,6 +26,7 @@
     "kubernetes/title.html",
     "kubernetes/overview.html",
     "kubernetes/architecture.html",
+    "kubernetes/installation.html",
     "kubernetes/minikube.html",
     "kubernetes/gke.html",
     "kubernetes/cluster-hardware.html",
