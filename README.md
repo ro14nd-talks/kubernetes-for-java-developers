@@ -104,7 +104,7 @@ of questions or suggestions).
 ### Tour
 
 * [JAX](https://jax.de/), 18.04 - 22.04.2016, Mainz
-* [JBCNConf](http://www.jbcnconf.com/2016/), 16.06 - 18.06.2016, Barcelona
+* [JBCNConf](http://www.jbcnconf.com/2016/), 16.06 - 18.06.2016, Barcelona, [Video](https://youtu.be/Gjij2t14pfg?list=PLo0fJV3LkR3xHHjo4MZGKm4leqLXwuKhY)
 * [JUG Nürnberg](http://www.meetup.com/de-DE/JUG-Nurnberg/), 22.06.2016, Nuremberg
 * [Docker Meetup Bamberg](http://www.meetup.com/de-DE/Docker-Bamberg/), 14.07.2016, Bamberg
 * [jugh!](http://www.jugh.de/), 29.09.2016, Kassel, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)
