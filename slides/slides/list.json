@@ -9,23 +9,43 @@
     "msa/orchestration.html"
   ],
   [
-    "pong/title.html",
-    "pong/overview.html",
-    "demo.html"
-  ],
-  [
     "docker/title.html",
     "docker/vm-vs-container.html",
     "docker/dockerfile.html",
-    "docker/d-m-p.html",
-    "demo.html"
+    "docker/d-m-p.html"
   ],
   [
     "kubernetes/title.html",
     "kubernetes/overview.html",
     "kubernetes/architecture.html",
+    "kubernetes/minikube.html"
+  ],
+  [
+    "fabric8/title.html",
+    "fabric8/overview.html",
+    "fabric8/fmp-overview.html",
+    "fabric8/fmp-goals.html",
+    "fabric8/fmp-config.html",
+    "fabric8/fmp-zero-config.html",
+    "fabric8/fmp-fragments.html",
+    "fabric8/fmp-k8s-openshift.html",
+    "fabric8/fmp-misc.html"
+  ],
+  [
     "kubernetes/cluster-hardware.html",
-    "kubernetes/cluster-ansible.html",
+    "kubernetes/cluster-ansible.html"
+  ],
+  [
+    "openshift/title.html",
+    "openshift/overview.html",
+    "openshift/extra.html",
+    "openshift/minishift.html"
+  ],
+  "wrap-up.html",
+  "pattern_book.html",
+  "questions-red.html",
+  [
+    "kubernetes/title.html",
     "kubernetes/pod.html",
     "kubernetes/labels.html",
     "demo.html",
@@ -38,23 +58,5 @@
     "demo.html",
     "kubernetes/volumes.html",
     "kubernetes/misc.html"
-  ],
-  [
-    "openshift/title.html",
-    "openshift/overview.html",
-    "openshift/extra.html"
-  ],
-  [
-    "fabric8/title.html",
-    "fabric8/overview.html",
-    "fabric8/fmp-overview.html",
-    "fabric8/fmp-config.html",
-    "fabric8/fmp-zero-config.html",
-    "fabric8/fmp-fragments.html",
-    "demo.html",
-    "fabric8/fmp-k8s-openshift.html",
-    "fabric8/fmp-misc.html"    
-  ],
-  "wrap-up.html",
-  "questions-red.html"
+  ]
 ]

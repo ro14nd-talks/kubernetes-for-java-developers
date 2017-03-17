@@ -7,8 +7,10 @@ docker run -it --rm \
       -v $(pwd)/slides:/slides \
       -v $(pwd)/demo:/demo \
       -e MAVEN_OPTS="-Ddocker.host.address=127.0.0.1" \
-      -p 9000:9000 -p 57575:57575 -p 35729:35729 -p 8001:8001 -p 8080:8080 \
+      -p 9000:9000 -p 57575:57575 -p 35729:35729 -p 8001:8001 \
       rhuss/kubernetes-for-java-developers:latest $*
+
+# -p 9000:9000 -p 57575:57575 -p 35729:35729 -p 8001:8001 -p 8080:8080 \
 
 #      -v $(pwd)/m2:/root/.m2 \
 
