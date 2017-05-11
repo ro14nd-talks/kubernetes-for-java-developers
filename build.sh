@@ -5,4 +5,4 @@ extra_args=""
 if [ x$1 != x ]; then
   extra_args="--build-arg KUBERNETES_MASTER=$1"
 fi
-docker build ${extra_args} -t rhuss/kubernetes-for-java-developers:latest .
+docker build ${extra_args} -t rhuss/kubernetes-for-java-developers:jax2017 .
