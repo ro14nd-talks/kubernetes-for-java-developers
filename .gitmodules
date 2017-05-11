@@ -1,3 +1,12 @@
 [submodule "visualizer"]
 	path = visualizer
 	url = git@github.com:rhuss/gcp-live-k8s-visualizer.git
+[submodule "demos/ping-pong-peng"]
+	path = demos/ping-pong-peng
+	url = git@github.com:rhuss/ping-pong-peng.git
+[submodule "demos/ping"]
+	path = demos/ping
+	url = git@github.com:rhuss/ping-pong-peng.git
+[submodule "demos/random-generator"]
+	path = demos/random-generator
+	url = https://github.com/rhuss/fmp-demo-random-generator.git

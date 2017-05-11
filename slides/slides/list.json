@@ -10,14 +10,14 @@
   ],
   [
     "docker/title.html",
-    "docker/vm-vs-container.html",
-    "docker/dockerfile.html",
-    "docker/d-m-p.html"
+    "docker/vm-vs-container.html"
   ],
   [
     "kubernetes/title.html",
     "kubernetes/overview.html",
     "kubernetes/architecture.html",
+    "kubernetes/cloud.html",
+    "kubernetes/cluster-hardware.html",
     "kubernetes/minikube.html"
   ],
   [
@@ -28,12 +28,11 @@
     "fabric8/fmp-config.html",
     "fabric8/fmp-zero-config.html",
     "fabric8/fmp-fragments.html",
+    "fabric8/fmp-generator.html",
+    "fabric8/fmp-enricher.html",
+    "fabric8/fmp-profile.html",
     "fabric8/fmp-k8s-openshift.html",
     "fabric8/fmp-misc.html"
-  ],
-  [
-    "kubernetes/cluster-hardware.html",
-    "kubernetes/cluster-ansible.html"
   ],
   [
     "openshift/title.html",
