@@ -41,5 +41,5 @@ ADD docker/wrap_aliases.sh /etc/profile.d/zz_wrap_aliases.sh
 # Enable this for creating the distribution
 # ADD m2.tar.bz2 /root/.m2/
 ADD slides /slides/
-ADD demo /demo/
+ADD demos/ping /demo/
 ADD visualizer /visualizer/
