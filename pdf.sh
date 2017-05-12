@@ -1,7 +1,10 @@
 #!/bin/bash
-echo "Creating slides.pdf"
+tag=$(git rev-parse --abbrev-ref HEAD)
+target="$(pwd)/kubernetes-for-java-developers-${tag}.pdf"
+
+echo "Creating ${target}"
 echo "(Don't forget to start the presentation before)"
-target="$(pwd)/kubernetes-for-java-developers.pdf"
+
 pushd ../tools/decktape
 if [ x$DOCKER_HOST = x ]; then
    host="localhost"
