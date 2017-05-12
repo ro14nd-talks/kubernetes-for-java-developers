@@ -1,5 +1,11 @@
 #!/bin/bash
-echo "Creating slides.pdf"
+tag="-$(git rev-parse --abbrev-ref HEAD)"
+if [ $tag = "-master" ]; then
+  tag=""
+fi
+target="$(pwd)/kubernetes-for-java-developers${tag}.pdf"
+
+echo "Creating ${target}"
 echo "(Don't forget to start the presentation before)"
 target="$(pwd)/kubernetes-for-java-developers.pdf"
 pushd ../tools/decktape
