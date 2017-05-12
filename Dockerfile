@@ -1,6 +1,7 @@
 FROM rhuss/docker-reveal:1.1.1
 
 MAINTAINER rhuss@redhat.com
+ARG pdf=kubernetes-for-java-developers.pdf
 
 # Where to find kubernetes
 ARG KUBERNETES_MASTER=http://192.168.23.200:8080
@@ -41,5 +42,6 @@ ADD docker/wrap_aliases.sh /etc/profile.d/zz_wrap_aliases.sh
 # Enable this for creating the distribution
 # ADD m2.tar.bz2 /root/.m2/
 ADD slides /slides/
+ADD ${pdf} /slides/kubernetes-for-java-developers.pdf
 ADD demos/ping /demo/
 ADD visualizer /visualizer/
