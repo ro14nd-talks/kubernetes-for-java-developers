@@ -109,3 +109,4 @@ of questions or suggestions).
 * [Docker Meetup Bamberg](http://www.meetup.com/de-DE/Docker-Bamberg/), 14.07.2016, Bamberg
 * [jugh!](http://www.jugh.de/), 29.09.2016, Kassel, [Video (GER)](https://www.youtube.com/watch?v=R1nQFl_wQlE)
 * [JavaSi'16](http://www.sioug.si/index.php/konferenca-javasi-16/java-2/175-kubectl-in-60-min), 17.10.2016, Portoroz
+* [JAX 2017](https://jax.de/session/java-entwicklung-in-zeiten-von-kubernetes-und-openshift/), 10.5.2017, Mainz
