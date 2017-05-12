@@ -1,8 +1,9 @@
 #!/bin/sh
+tag=jax2017
 docker run -d \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -p 9000:9000 -p 57575:57575 -p 35729:35729 \
-      rhuss/kubernetes-for-java-developers:jax2017 1>&2
+      rhuss/kubernetes-for-java-developers:${tag} 1>&2
 
 if [ $? -ne "0" ]; then
    echo "Error starting container: $?" 1>&2
