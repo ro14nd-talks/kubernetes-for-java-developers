@@ -4,7 +4,7 @@ MAINTAINER rhuss@redhat.com
 ARG pdf=kubernetes-for-java-developers.pdf
 
 # Where to find kubernetes
-ARG KUBERNETES_MASTER=http://192.168.23.200:8080
+ARG KUBERNETES_MASTER=http://192.168.23.200:6443
 
 # Add kubectl & openjdk8 & fix interrupt handling
 RUN curl https://storage.googleapis.com/kubernetes-release/release/v1.3.2/bin/linux/amd64/kubectl \
@@ -34,7 +34,7 @@ RUN gcc /tmp/reset_signals.c -o /bin/reset_signals \
 
 # kubeproxy for visualizer
 ADD docker/start_extra.sh /start_extra.sh
-EXPOSE 8001
+EXPOSE 6443
 
 # Profile
 ADD docker/kubernetes_profile.sh /etc/profile.d/kubernetes.sh
