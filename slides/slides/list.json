@@ -8,6 +8,7 @@
   "docker/title.html",
   "docker/vm-vs-container.html",
   "docker/overview.html",
+  "msa/container.html",
   "msa/orchestration.html",
   "kubernetes/title.html",
   "kubernetes/overview.html",
