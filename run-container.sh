@@ -1,5 +1,5 @@
 #!/bin/sh
-tag=jax2017
+tag=wjax2017
 docker run -d \
       -v /var/run/docker.sock:/var/run/docker.sock \
       -p 9000:9000 -p 57575:57575 -p 35729:35729 \
