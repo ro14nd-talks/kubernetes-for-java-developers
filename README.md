@@ -23,41 +23,14 @@ configured to use a Kubernetes cluster at `http://192.168.23.200:8080` but
 this can be overridden when building the image with e.g. `build.sh
 http://1.2.3.4:8080`.
 
-After startup, a nice
-[Kubernetes Visualizer](https://github.com/brendandburns/gcp-live-k8s-visualizer), made by the fine Google folks & friends, is available at `http://docker_host:8001/k8s/` and can be used to
-visualize the demo:
+The demo can be found in `/demos/random-generator`.
 
-![Demo](https://raw.githubusercontent.com/rhuss/jax-kubernetes-2016/master/demo.png
- "Demo in Action")
+The demo's full source is also available from [https://github.com/rhuss/fmp-demo-random-generator](https://github.com/rhuss/fmp-demo-random-generator).
 
-When watching the presentation you can use `m` for getting a Menu for
-directly navigating to individual slides. There you will also find
-section **Links** which useful links to additional information. The
-links can be found below, too.
-
-The demo can be found in `/demo`. There are 5 Git branches available:
-
-* 1-java
-* 2-docker
-* 3-kubernetes
-* 4-ping-update
-* 5-pong-update
-
-The demo's full source is also available from [https://github.com/rhuss/ping-pong](https://github.com/rhuss/ping-pong).
-
-Some useful commands to use (some available only in certain branches)
-
-* `mvn clean install` : Build everything
-* In `pong`, `mvn wildfly-swarm:run`
-* In `ping`, `mvn spring-boot:run` to start
-* In `ping` or `pong`, `mvn package docker:build` builds the Docker image
-* `mvn -N docker:start -Ddocker.follow` : Run the demo in a local Docker daemon
-* In branch `5-pong-update`, `pong` contains the Spring Boot implementation of the Jax RS service, useful for
-  comparing both technologies
+See the [README](https://github.com/rhuss/fmp-demo-random-generator/blob/master/README.md) for some hints how to run the demo.
 
 Have fun (and feel free to open
-[issues](https://github.com/ro14nd-talks/kubernetes-for-java-developers/issues) in case
-of questions or suggestions).
+[issues](https://github.com/ro14nd-talks/kubernetes-for-java-developers/issues) in case of questions or suggestions).
 
 
 ### Software
@@ -71,9 +44,7 @@ of questions or suggestions).
 ### Links
 
 * **Demo**
-  * [Ping Pong](https://github.com/rhuss/ping-pong)
-  * [Kubernetes Visualizer](https://github.com/saturnism/gcp-live-k8s-visualizer)
-  * [Kubernetes Visualizer (Original](https://github.com/brendandburns/gcp-live-k8s-visualizer))
+  * [random-generator](https://github.com/rhuss/fmp-demo-random-generator)
 * **Docker**
   * [fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
   * [docker-maven-plugin Shootout](https://github.com/fabric8io/shootout-docker-maven)
@@ -93,8 +64,8 @@ of questions or suggestions).
   * [Fabric8](http://fabric8.io)
 * **Bonus**
   * [rhuss/docker-reveal](https://hub.docker.com/r/rhuss/docker-reveal)
-  * [Slide Deck as PDF](slides/kubernetes-for-java-developers.pdf)
-  * [Slide Deck as Docker Container](https://github.com/rhuss/jax-kubernetes-2016)
+  * [Slide Deck as PDF](slides/kubernetes-for-java-developers-wjax2017.pdf)
+  * [Slide Deck as Docker Container](https://github.com/rhuss/kubernetes-for-java-developers), Tag: "wjax2017"
 * **ro14nd**
   * [Blog](https://ro14nd.de)
   * [Fabric8](http://fabric8.io)
@@ -103,6 +74,7 @@ of questions or suggestions).
 
 ### Tour
 
+* [W-JAX](https://wjax.de/), 6.11.2017 - 10.11.2017, Muenchen
 * [JAX](https://jax.de/), 18.04 - 22.04.2016, Mainz
 * [JBCNConf](http://www.jbcnconf.com/2016/), 16.06 - 18.06.2016, Barcelona, [Video](https://youtu.be/Gjij2t14pfg?list=PLo0fJV3LkR3xHHjo4MZGKm4leqLXwuKhY)
 * [JUG Nürnberg](http://www.meetup.com/de-DE/JUG-Nurnberg/), 22.06.2016, Nuremberg
