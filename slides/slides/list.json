@@ -43,14 +43,10 @@
     "kubernetes/title.html",
     "kubernetes/pod.html",
     "kubernetes/labels.html",
-    "demo.html",
     "kubernetes/replication-controller.html",
     "kubernetes/replication-controller-diagram.html",
-    "demo.html",
     "kubernetes/service.html",
-    "demo.html",
     "kubernetes/rolling-update.html",
-    "demo.html",
     "kubernetes/volumes.html",
     "kubernetes/misc.html"
   ]
