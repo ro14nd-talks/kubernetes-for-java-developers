@@ -3,3 +3,4 @@ demo
 m2.tar.bz2
 decktape*
 *.back
+kubeconfig

@@ -3,18 +3,12 @@ FROM rhuss/docker-reveal:1.4.0
 MAINTAINER rhuss@redhat.com
 ARG pdf=kubernetes-for-java-developers.pdf
 
-# Where to find kubernetes
-ARG KUBERNETES_MASTER=http://192.168.23.200:8080
-
 # Add kubectl & openjdk8 & fix interrupt handling
-RUN curl https://storage.googleapis.com/kubernetes-release/release/v1.3.2/bin/linux/amd64/kubectl \
+RUN curl https://storage.googleapis.com/kubernetes-release/release/v1.9.6/bin/linux/amd64/kubectl \
     -o /usr/bin/kubectl \
- && curl https://storage.googleapis.com/kubernetes-release/release/v1.2.2/bin/linux/amd64/kubectl \
-    -o /usr/bin/kubectl12 \
- && chmod 755 /usr/bin/kubectl /usr/bin/kubectl12 \
- && kubectl config set-cluster cluster-pi --insecure-skip-tls-verify=true --server=${KUBERNETES_MASTER} \
- && kubectl config set-context default/cluster-pi --namespace=default --cluster=cluster-pi \
- && kubectl config use-context default/cluster-pi
+ && chmod 755 /usr/bin/kubectl
+
+ADD kubeconfig /root/.kube/config
 
 # Install OpenJDK8
 RUN apk update \
