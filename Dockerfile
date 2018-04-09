@@ -1,4 +1,4 @@
-FROM rhuss/docker-reveal:1.1.1
+FROM rhuss/docker-reveal:1.4.0
 
 MAINTAINER rhuss@redhat.com
 ARG pdf=kubernetes-for-java-developers.pdf
