@@ -8,8 +8,6 @@ RUN curl https://storage.googleapis.com/kubernetes-release/release/v1.9.6/bin/li
     -o /usr/bin/kubectl \
  && chmod 755 /usr/bin/kubectl
 
-ADD kubeconfig /root/.kube/config
-
 # Install OpenJDK8
 RUN apk update \
  && apk add openjdk8
@@ -39,3 +37,4 @@ ADD slides /slides/
 ADD ${pdf} /slides/kubernetes-for-java-developers.pdf
 ADD demos/ping /demo/
 ADD visualizer /visualizer/
+ADD kubeconfig /root/.kube/config

@@ -14,6 +14,7 @@
     "kubernetes/architecture.html",
     "kubernetes/cloud.html",
     "kubernetes/cluster-hardware.html",
+    "kubernetes/cluster-ansible.html",
     "kubernetes/minikube.html"
   ],
   [
@@ -30,16 +31,7 @@
     "fabric8/fmp-misc.html"
   ],
   [
-    "openshift/title.html",
-    "openshift/overview.html",
-    "openshift/extra.html",
-    "openshift/minishift.html"
-  ],
-  "wrap-up.html",
-  "pattern_book.html",
-  "questions-red.html",
-  [
-    "kubernetes/title.html",
+    "pong/overview.html",
     "kubernetes/pod.html",
     "kubernetes/labels.html",
     "kubernetes/replication-controller.html",
@@ -48,5 +40,14 @@
     "kubernetes/rolling-update.html",
     "kubernetes/volumes.html",
     "kubernetes/misc.html"
-  ]
+  ],
+  [
+    "openshift/title.html",
+    "openshift/overview.html",
+    "openshift/extra.html",
+    "openshift/minishift.html"
+  ],
+  "wrap-up.html",
+  "pattern_book.html",
+  "questions-red.html"
 ]
