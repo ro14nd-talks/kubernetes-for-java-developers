@@ -31,17 +31,6 @@
     "fabric8/fmp-misc.html"
   ],
   [
-    "pong/overview.html",
-    "kubernetes/pod.html",
-    "kubernetes/labels.html",
-    "kubernetes/replication-controller.html",
-    "kubernetes/replication-controller-diagram.html",
-    "kubernetes/service.html",
-    "kubernetes/rolling-update.html",
-    "kubernetes/volumes.html",
-    "kubernetes/misc.html"
-  ],
-  [
     "openshift/title.html",
     "openshift/overview.html",
     "openshift/extra.html",
