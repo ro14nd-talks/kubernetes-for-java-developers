@@ -38,5 +38,15 @@
   ],
   "wrap-up.html",
   "pattern_book.html",
-  "questions-red.html"
+  "questions-red.html",
+  [
+    "kubernetes/title.html",
+    "kubernetes/pod.html",
+    "kubernetes/labels.html",
+    "kubernetes/replication-controller.html",
+    "kubernetes/replication-controller-diagram.html",
+    "kubernetes/service.html",
+    "kubernetes/volumes.html",
+    "kubernetes/misc.html"
+  ]
 ]
